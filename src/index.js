@@ -90,13 +90,13 @@ function filterPups(pups) {
     filterButton.addEventListener('click', (pups) => {
        
         if (filterButton.textContent === on) {
-            dogBar.innerHTML = goodDogs.forEach((dog)=>console.log(dog.name))
-        //    console.log(goodDogs)
+            // dogBar.innerHTML = goodDogs.forEach((dog)=>console.log(dog.name))
+            // console.log(goodDogs)
             filterButton.textContent = off
         }
         else if (filterButton.textContent === off) {
-            console.log(badDogs)
-            dogBar.innerHTML = badDogs
+            // console.log(badDogs)
+            
             filterButton.textContent = on
         }
          dogBar.innerHTML = ""
